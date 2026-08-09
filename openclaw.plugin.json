@@ -1,5 +1,6 @@
 {
   "id": "concept-forge",
+  "name": "Concept Forge",
   "configSchema": {
     "type": "object",
     "additionalProperties": false,
