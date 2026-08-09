@@ -1,6 +1,6 @@
 {
   "name": "concept-forge",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Turn vague client ideas & chaotic brainstorming into crystal-clear specs. Captures metaphors, decodes fuzzy requirements, auto-builds a shared terminology dictionary — forge raw thoughts into implementable concepts.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,9 @@
     "test": "jest --config jest.config.js"
   },
   "openclaw": {
-    "extensions": ["openclaw.plugin.json"],
+    "extensions": [
+      "openclaw.plugin.json"
+    ],
     "compat": {
       "pluginApi": "1.0.0"
     },

@@ -1,12 +1,8 @@
 {
   "id": "concept-forge",
-  "name": "Concept Forge",
-  "kind": "plugin",
-  "version": "2.0.0",
-  "description": "Forge raw thoughts into implementable concepts. Captures metaphors & client jargon from brainstorming, decodes vague requirements, detects naming chaos & definition drift — and auto-builds a shared terminology dictionary your whole team can rely on.",
-  "author": "Concept Forge Team",
   "configSchema": {
     "type": "object",
+    "additionalProperties": false,
     "properties": {
       "projectId": {
         "type": "string",
